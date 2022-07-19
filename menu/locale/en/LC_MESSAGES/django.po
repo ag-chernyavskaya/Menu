@@ -1,0 +1,146 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-07-05 16:00+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: .\templates\include\footer.html:10
+msgid "Академия БелХард"
+msgstr "BelHard Academy"
+
+#: .\templates\include\footer.html:15
+msgid "Академия для программистов и людей, которые хотят развиваться в сфере IT."
+msgstr "Academy for programmers and people who want to develop in the field of IT"
+
+#: .\templates\include\footer.html:17
+msgid "Мы в социальных сетях"
+msgstr "Catch on Social"
+
+#: .\templates\include\footer.html:37
+msgid "Разделы"
+msgstr "Sections"
+
+#: .\templates\include\footer.html:46
+msgid "Контакты"
+msgstr "Contacts"
+
+#: .\templates\include\footer.html:51
+msgid "Контактная информация"
+msgstr "Contact Info"
+
+#: .\templates\include\footer.html:58
+msgid "Расположение"
+msgstr "Location"
+
+#: .\templates\include\footer.html:59
+msgid "Беларусь"
+msgstr "Belarus"
+
+#: .\templates\include\header.html:9
+msgid "Меню"
+msgstr "Menu"
+
+#: .\templates\include\header.html:12
+msgid "Главная"
+msgstr "Main"
+
+#: .\templates\include\header.html:15
+msgid "Категории"
+msgstr "Categories"
+
+#: .\templates\include\header.html:28
+msgid "Выход"
+msgstr "LOG OUT"
+
+#: .\templates\include\header.html:33
+msgid "Вход"
+msgstr "LOG IN"
+
+#: .\templates\include\header.html:37
+msgid "Регистрация"
+msgstr "Registration"
+
+#: .\templates\include\header.html:63
+msgid "Все о готовке"
+msgstr "All about cooking"
+
+#: .\templates\include\sidebar.html:4
+msgid "Поиск блюда"
+msgstr "Find the Dish"
+
+#: .\templates\include\sidebar.html:6
+msgid "Введите название..."
+msgstr "Enter the title..."
+
+#: .\templates\include\sidebar.html:12
+msgid "Время приготовления"
+msgstr "Cooking time"
+
+#: .\templates\include\sidebar.html:22
+msgid "Найти"
+msgstr "Find"
+
+#: .\templates\menuapp\dish_detail.html:22
+msgid "Состав:"
+msgstr "Composition"
+
+#: .\templates\menuapp\dish_detail.html:23
+msgid "Время приготовления:"
+msgstr "Cooking time"
+
+#: .\templates\menuapp\dish_detail.html:26
+msgid "Категория:"
+msgstr "Category"
+
+#: .\templates\menuapp\dish_detail.html:59
+msgid "Рецепт:"
+msgstr "Recipe:"
+
+#: .\templates\menuapp\dish_detail.html:64
+msgid "Оставить отзыв"
+msgstr "Add Review"
+
+#: .\templates\menuapp\dish_detail.html:70
+msgid "Ваш комментарий *"
+msgstr "Your comment *"
+
+#: .\templates\menuapp\dish_detail.html:79
+msgid "Имя *"
+msgstr "Name *"
+
+#: .\templates\menuapp\dish_detail.html:96
+msgid "Отправить"
+msgstr "Send"
+
+#: .\templates\menuapp\dish_detail.html:110
+msgid "Ответить"
+msgstr "Reply"
+
+#: .\templates\menuapp\tags\last_dish.html:3
+msgid "Последние добавленные"
+msgstr "Last added"
+
+#: .\templates\contact\tags\form.html:3
+msgid "Рассылка"
+msgstr "Newsletter"
+
+#: .\templates\contact\tags\form.html:4
+msgid "Подписавшись на нашу рассылку, вы всегда будете получать последние новости и обновления от нас"
+msgstr "By subscribing to our mailing list you will always get latest news and updates from us."
+
+
+

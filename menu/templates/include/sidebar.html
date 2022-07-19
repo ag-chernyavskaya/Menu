@@ -1,0 +1,24 @@
+{% load dish_tag %}
+{% load i18n %}
+<div class="search-bar w3layouts-newsletter">
+    <h3 class="sear-head editContent" >{% trans 'Поиск блюда' %}</h3>
+    <form action="{% url 'search' %}" method="get" class="d-flex editContent" >
+        <input type="search" placeholder="{% trans 'Введите название...' %}" name="q" class="form-control" required="">
+        <button type="submit" class="btn1 btn" ><span class="fa fa-search" aria-hidden="true" ></span></button>
+    </form>
+</div>
+<form action="{% url 'filter' %}" method="get">
+<div class="left-side my-4">
+    <h3 class="sear-head editContent">{% trans 'Время приготовления' %}</h3>
+    <ul class="w3layouts-box-list">
+        {% for dish in view.get_cooking_time %}
+        <li class="editContent">
+            <input type="checkbox" class="checked" name="cooking_time" value="{{ dish.cooking_time }}">
+            <span class="span editContent">{{ dish.cooking_time }}</span>
+        </li>
+        {% endfor %}
+    </ul>
+</div>
+<button type="submit"> {% trans 'Найти' %} </button>
+</form>
+{% get_last_dishes count=4 %}
