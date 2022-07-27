@@ -1,6 +1,5 @@
 from django import template
-from contact.forms import ContactForm
-
+from ..forms import ContactForm
 
 register = template.Library()
 

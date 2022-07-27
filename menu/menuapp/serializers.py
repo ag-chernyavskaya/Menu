@@ -3,7 +3,7 @@ from .models import Dish, Reviews
 
 
 class FilterReviewListSerializer(serializers.ListSerializer):
-    """Фильт комметарией, только родительские"""
+    """Фильтр комметариев, только родительские"""
     def to_representation(self, data):
         data = data.filter(parent=None)
         return super().to_representation(data)
@@ -25,7 +25,6 @@ class DishListSerializer(serializers.ModelSerializer):
 
 class ReviewCreateSerializer(serializers.ModelSerializer):
     """Добавление отзывов"""
-
     class Meta:
         model = Reviews
         fields = '__all__'

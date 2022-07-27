@@ -27,7 +27,7 @@ class DishesView(CookingTime, ListView): #django
 class DishListView(generics.ListAPIView): #rest_framework
     """Вывод списка блюд"""
     serializer_class = DishListSerializer
-    permission_classes = [permissions.IsAuthenticated]
+    #permission_classes = [permissions.IsAuthenticated]
 
     def get_queryset(self):
         dishes = Dish.objects.all()

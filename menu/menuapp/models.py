@@ -51,7 +51,7 @@ class Reviews(models.Model):
     # rest_framework
     parent = models.ForeignKey(
         "self", verbose_name="Родитель", on_delete=models.SET_NULL, blank=True, null=True, related_name='children')
-    # parent = models.ForeignKey(
+    #parent = models.ForeignKey(
     #      "self", verbose_name="Родитель", on_delete=models.SET_NULL, blank=True, null=True
     #  )
     #dish = models.ForeignKey(Dish, verbose_name="блюдо", on_delete=models.CASCADE)
