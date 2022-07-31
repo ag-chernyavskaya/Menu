@@ -83,6 +83,7 @@ class Search(ListView):
     """Поиск блюда"""
 
     paginate_by = 3
+
     def get_queryset(self):
         q = self.request.GET.get("q")
         dishes = Dish.objects.filter(Q(name__iregex=q))

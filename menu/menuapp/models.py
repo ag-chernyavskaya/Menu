@@ -49,14 +49,14 @@ class Reviews(models.Model):
     name = models.CharField("Имя", max_length=100)
     text = models.TextField("Сообщение", max_length=5000)
     # rest_framework
+    # parent = models.ForeignKey(
+    #     "self", verbose_name="Родитель", on_delete=models.SET_NULL, blank=True, null=True, related_name='children')
     parent = models.ForeignKey(
-        "self", verbose_name="Родитель", on_delete=models.SET_NULL, blank=True, null=True, related_name='children')
-    #parent = models.ForeignKey(
-    #      "self", verbose_name="Родитель", on_delete=models.SET_NULL, blank=True, null=True
-    #  )
-    #dish = models.ForeignKey(Dish, verbose_name="блюдо", on_delete=models.CASCADE)
-    #rest_framework
-    dish = models.ForeignKey(Dish, verbose_name="блюдо", on_delete=models.CASCADE, related_name='reviews')
+        "self", verbose_name="Родитель", on_delete=models.SET_NULL, blank=True, null=True
+        )
+    dish = models.ForeignKey(Dish, verbose_name="блюдо", on_delete=models.CASCADE)
+    # rest_framework
+   # dish = models.ForeignKey(Dish, verbose_name="блюдо", on_delete=models.CASCADE, related_name='reviews')
     objects = models.Manager()
 
     def __str__(self):
